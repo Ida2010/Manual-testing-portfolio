@@ -1,0 +1,30 @@
+Test Case: Indira TC2 – Registration Form Validation
+Project: ONL_TEM_D_05_SRB
+Test Case ID: ONLD05SRB-60
+Type: Test Case Template
+Status: Active
+Priority: High
+Environment:
+
+OS: Windows 10 Pro
+
+Browser: Google Chrome Version 133.0.6943.59 (64-bit)
+
+WebShop: PrestaShop © 2025
+
+Preconditions:
+User is on the homepage: https://dev-mystore-testlab.coderslab.pl/index.php
+
+Test Steps:
+
+Step	Action	Input	Expected Result
+1	Navigate to the homepage	–	PrestaShop homepage is displayed
+2	Click on Sign in	–	Login page is opened
+3	Click on "No account? Create one here"	–	Registration page is opened
+4	Enter first name	Indira	Input is accepted, no validation error
+5	Enter last name	Trifunovic	Input is accepted and displayed
+6	Enter a new email address	newuser123@example.com	Email is accepted if not previously used
+7	Enter password (min. 5 characters)	e.g., abcde	Password is accepted
+8	Tick Customer data privacy checkbox	–	Checkbox is selected
+9	Tick Terms and conditions checkbox	–	Checkbox is selected
+10	Click SAVE	–	Account is successfully created and user is redirected or sees confirmatio
